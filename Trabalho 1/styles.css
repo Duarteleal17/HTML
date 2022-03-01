@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  position: static;
+  font-family: "Lucida Console", "Courier New", monospace;
+  overflow-x: hidden;
+}
+
+/* Style the side navigation */
+
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+/* Side navigation links */
+
+.sidenav a {
+  color: rgb(143, 143, 143);
+  padding: 16px;
+  font-size: 21px;
+  text-decoration: none;
+  display: block;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Change color on hover */
+
+.sidenav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/* Style the content */
+
+.content1 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 580px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content2 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 540px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content3 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 300px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content4 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 560px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content5 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 260px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content6 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 185px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content7 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 160px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content8 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 150px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+.content9 {
+  position: fixed;
+  margin-left: 200px;
+  padding-left: 535px;
+  background-color: rgb(71, 71, 71);
+  width: 1500px;
+  height: 150px;
+  padding-top: 14px;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  /**width: 1920px;*/
+  overflow-x: hidden;
+  z-index: -1;
+  background-size: contain ;
+}
+
+a.active {
+  background-color: #a6a7a6;
+  color: white;
+}
+
+.sidenav p {
+  color: rgb(143, 143, 143);
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
